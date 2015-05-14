@@ -25,7 +25,6 @@ And call the xmlTweet function on your placeholder
 
 ```
 <script>
-
     var template = '<div class="tweets--tweet"><div class="profile_pic"><img class="img-circle" src="{{avatar_src}}"></div><div class="content"> <span class="user tag">{{screen_name}}</span> <span class="user_name">{{user_name}}</span> <p class="tweet-body">{{tweet_body}}</p> <span class="date">{{date}}</span></div></div>';
 
     $('.tweets').xmlTweet({
@@ -52,9 +51,13 @@ For example: `<div class="profile_pic"><img class="img-circle" src="{{avatar_src
 The usable tags are as follows:
 
 __{{avatar_src}}__      - The link to the users profile picture
+
 __{{screen_name}]__     - The users twitter name prepended by a __@__
+
 __{{user_name}}__       - The users actual name
+
 __{{tweet_body}}__      - The body of the tweet. Hashtags, mentions, and links will be automatically parsed.
+
 __{{date}}__            - The date the tweet was posted
 
 # XML File Structure
