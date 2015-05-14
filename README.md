@@ -1,4 +1,4 @@
-# xmlTweet - XML -> Tweet parser for jQeury
+# XML to Tweet parser for jQeury
 
 xmlTweet was created due to the limitations of the Twitter API with static web pages (such as those hosted on Amazon S3).
 
