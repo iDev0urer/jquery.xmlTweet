@@ -1,0 +1,110 @@
+<style type="text/css">
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header {
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    .tweets {
+        margin: 20px 0;
+    }
+    .tweets--tweet {
+      width: 25%;
+      display: inline-block;
+      margin: 4%;
+      position: relative;
+      color: #FFF;
+      background: rgba(20,20,20,.6) url('/images/twitter_shape.png') 98% 5% no-repeat;
+      background-size: 16px;
+      font-size: 12px;
+      text-align: left;
+      border: 1px solid #00FFFF;
+    }
+
+    .profile_pic {
+        position: absolute;
+        left: -20%;
+        top: -20%;
+    }
+    .profile_pic img {
+        width: 155px;
+        height: 155px;
+    }
+    .img-circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        box-shadow: -2px 1px #b4b4b4;
+    }
+    .content {
+        padding: 5px 5px 5px 36%;
+    }
+    .content a {
+        color: #00FFFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .content .user {
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: block;
+    }
+    .content .user_name {
+        font-size: 10px;
+        display: block;
+        margin: -5px 0 0 3px;
+    }
+    .tweet-body {
+        margin: 10px 0 20px;
+        line-height: 1em;
+    }
+    .date {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      font-size: 10px;
+      color: #aaaaaa;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="xmlTweet.jquery.js"></script>
+
+<div class="container">
+
+  <h1 class="header">xmlTweet - Forget the API</h1>
+
+  <div class="tweets">
+
+    <div class="tweets--tweet">
+      <div class="profile_pic">
+        <img class="img-circle" src="https://pbs.twimg.com/profile_images/512992915639918592/8e87jmPt_400x400.jpeg">
+      </div>
+      <div class="content">
+        <span class="user tag">@iDev0rer</span>
+        <span class="user_name">Chris Watson</span>
+        <p class="tweet-body">
+          <span class="tag">@Nuvi</span> lorem ipsub delor sit amet. Bacon is good and delicious and I love it.
+        </p>
+        <span class="date">April 29, 2015</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+    var template = '<div class="tweets--tweet"><div class="profile_pic"><img class="img-circle" src="{{avatar_src}}"></div><div class="content"> <span class="user tag">{{screen_name}}</span> <span class="user_name">{{user_name}}</span> <p class="tweet-body">{{tweet_body}}</p> <span class="date">{{date}}</span></div></div>';
+
+    $('.tweets').xmlTweet({
+        xmlFile: './feed.xml',
+        template: template
+    });
+</script>

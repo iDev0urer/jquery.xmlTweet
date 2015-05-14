@@ -1,0 +1,53 @@
+<xml version="1.0">
+  <tweets>
+
+    <tweet>
+      <screen_name>@Paramore</screen_name>
+      <user_name>Paramore</user_name>
+      <avatar_src>https://pbs.twimg.com/profile_images/581568869099274240/JDAj9I1n.jpg</avatar_src>
+      <tweet_body>We're in Louisville tonight for #WritingTheFuture. A few tickets are still available at http://bit.ly/paramore-512</tweet_body>
+      <date>April 29, 2015</date>
+    </tweet>
+
+    <tweet>
+      <screen_name>@AWOLNation</screen_name>
+      <user_name>Awol Nation</user_name>
+      <avatar_src>https://pbs.twimg.com/profile_images/559761107091329024/98qeYWlt.jpeg</avatar_src>
+      <tweet_body>Our new album, 'RUN', is available now on @iTunesMusic! So excited to share these songs w/you: http://smarturl.it/AWOLRun  </tweet_body>
+      <date>April 29, 2015</date>
+    </tweet>
+
+    <tweet>
+      <screen_name>@GodAwesomeHair</screen_name>
+      <user_name>Thor Odinson</user_name>
+      <avatar_src>https://pbs.twimg.com/profile_images/459341702377914368/rQlid_CK.jpeg</avatar_src>
+      <tweet_body>"Take Stark by his throat" has just been promoted to Asgardian National sport.</tweet_body>
+      <date>April 29, 2015</date>
+    </tweet>
+
+    <tweet>
+    <screen_name>@SherlockSH</screen_name>
+    <user_name>Sherlock Holmes</user_name>
+    <avatar_src>https://pbs.twimg.com/profile_images/470993791243919360/D7rGy8Yx.jpeg</avatar_src>
+    <tweet_body>I've been informed that it's a crime to behead even willing subjects. "Go figure."</tweet_body>
+    <date>April 29, 2015</date>
+  </tweet>
+
+    <tweet>
+      <screen_name>@LegoDarthVader</screen_name>
+      <user_name>LEGO Darth Vader</user_name>
+      <avatar_src>https://pbs.twimg.com/profile_images/72434139/DarthVader01.jpg</avatar_src>
+      <tweet_body>Build a LEGO Racecar and win a trip to McLaren [News] http://ift.tt/1EC86Q4</tweet_body>
+      <date>April 29, 2015</date>
+    </tweet>
+
+    <tweet>
+      <screen_name>@TheBeard</screen_name>
+      <user_name>The Beard</user_name>
+      <avatar_src>https://pbs.twimg.com/profile_images/2147672398/AFE9BCA3-A647-494E-A450-973E9E24FCAF_400x400</avatar_src>
+      <tweet_body>I've survived the first 24h without water. Hopefully the man behind me won't eat a lot of juicy stuff. Let's pray! #sandy</tweet_body>
+      <date>April 29, 2015</date>
+    </tweet>
+
+  </tweets>
+</xml>
